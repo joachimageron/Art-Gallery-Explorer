@@ -1,10 +1,8 @@
 import { Link } from "@heroui/link";
-import { Card, CardBody } from "@heroui/card";
 import { Image } from "@heroui/image";
 import { Button } from "@heroui/button";
-import { title, subtitle } from "@/components/primitives";
+import { title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
-import { siteConfig } from "@/config/site";
 
 export default function HomePage() {
   return (

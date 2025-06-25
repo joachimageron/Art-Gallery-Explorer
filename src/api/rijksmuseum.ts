@@ -6,13 +6,7 @@ import {
 
 // API Base URLs - Updated based on documentation
 const SEARCH_API_BASE_URL = "https://data.rijksmuseum.nl/search"; // For Linked Art Search
-const RESOLVER_API_BASE_URL = "https://data.rijksmuseum.nl"; // For persistent identifier resolver
 
-// Default parameters for the collection search
-const DEFAULT_PARAMS = {
-  pageToken: undefined,
-  imageAvailable: true,
-};
 
 /**
  * Fetches a list of artworks from the Rijksmuseum Linked Art Search API
